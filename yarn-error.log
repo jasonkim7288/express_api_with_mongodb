@@ -1,0 +1,48 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js add --dev nodemon
+
+PATH: 
+  /home/jason/.rbenv/shims:/home/jason/.rbenv/bin:/home/jason/.vscode-server/bin/a0479759d6e9ea56afa657e454193f72aef85bd0/bin:/home/jason/.rbenv/shims:/home/jason/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Python27/:/mnt/c/Python27/Scripts:/mnt/d/Program/java/jdk1.8/bin:/mnt/d/Src/gradle-5.6.2/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NGX:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/PuTTY/:/mnt/d/Program/Microsoft VS Code/bin:/mnt/d/Program/Git/cmd:/mnt/d/Program/Git/mingw64/bin:/mnt/d/Program/Git/usr/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/Program/NodeJS/:/mnt/c/Program Files (x86)/WinMerge:/mnt/c/RailsInstaller/Ruby2.2.0/bin:/mnt/d/Program/RailsInstaller/Ruby2.2.0/bin:/mnt/d/Program/RailsInstaller/Git/cmd:/mnt/d/Program/RailsInstaller/Ruby2.3.3/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/User/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/User/AppData/Roaming/npm:/mnt/d/Program/PostgreSQL/bin:/mnt/c/Program Files/heroku/bin:/snap/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /mnt/d/Src/wsl/projects/express/api_with_mongodb/package.json: Unexpected token } in JSON at position 323
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "api_with_mongodb",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "start": "nodemon app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "mongoose": "^5.10.3",
+      "morgan": "^1.10.0",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
